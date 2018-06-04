@@ -1,3 +1,10 @@
+//**lodash**//
+//import { without } from 'loadash';
+var _ = require('lodash');
+console.log(_);
+
+
+
 //****4. DOM EVENTS***//
 
 
@@ -43,3 +50,5 @@ button.addEventListener("click", addListAfterClick)
 
 //keypressed event
 input.addEventListener("keypress", addListAfterKeypress)
+
+
